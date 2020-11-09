@@ -5,13 +5,13 @@ fun main() {
     val a = readLine()!!.toInt()
     print("Enter second number")
     val b= readLine()!!.toInt()
-    val c = add(a,b)
+    val c = add(b = b,a = a)
     //string interpolation
     println("Sum of $a and $b is $c")
-    addAnother(a,b)
+//    addAnother(a,b)
 }
 //Function with return type
-fun add(a: Int, b: Int) : Int{
+fun add(a: Int=0, b: Int=0) : Int{
     return a + b
 }
 
