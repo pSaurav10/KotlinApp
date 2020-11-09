@@ -7,6 +7,6 @@ fun main(){
 
 fun multiple(a: Int){
     for (i in 1..10){
-        println("$a times $i is " + a*i)
+        println("$a times $i = ${a*i} ")
     }
 }
