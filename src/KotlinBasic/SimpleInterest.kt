@@ -1,3 +1,5 @@
+package KotlinBasic
+
 fun main(){
     print("Enter the rate of Interest")
     val rate = readLine()!!.toFloat()

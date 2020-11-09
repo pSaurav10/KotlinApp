@@ -1,3 +1,5 @@
+package KotlinBasic
+
 fun main(){
     print("Enter a Number")
     val a = readLine()!!.toInt()

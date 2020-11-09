@@ -1,3 +1,5 @@
+package KotlinBasic
+
 fun main() {
     //val = value : it is read-only immutable
     //var = variable: reassignable , mutable
@@ -8,7 +10,7 @@ fun main() {
     val c = add(b = b,a = a)
     //string interpolation
     println("Sum of $a and $b is $c")
-//    addAnother(a,b)
+//    KotlinBasic.addAnother(a,b)
 }
 //Function with return type
 fun add(a: Int=0, b: Int=0) : Int{

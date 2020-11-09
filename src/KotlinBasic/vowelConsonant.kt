@@ -1,3 +1,5 @@
+package KotlinBasic
+
 fun main(){
     print("enter a character")
     val a = readLine()!![0]

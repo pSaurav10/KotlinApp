@@ -1,4 +1,4 @@
-//iot
+package KotlinBasic//iot
 //        android
 //        webapi
 //
@@ -8,11 +8,11 @@
 //        60-100 1st div
 
         fun main(){
-                print("Enter marks obtained in IoT")
+                print("Enter KotlinBasic.marks obtained in IoT")
                 val iot = readLine()!!.toFloat()
-                print("Enter marks obtained in Android")
+                print("Enter KotlinBasic.marks obtained in Android")
                 val android = readLine()!!.toFloat()
-                print("Enter marks obtained in WebAPI")
+                print("Enter KotlinBasic.marks obtained in WebAPI")
                 val webapi = readLine()!!.toFloat()
                 val result = marks(iot, android, webapi)
                 print(result)
